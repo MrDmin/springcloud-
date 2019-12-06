@@ -1,0 +1,23 @@
+server:
+  port: 7001 # 服务端口
+
+spring:
+  application:
+    name: min-zuul
+
+eureka:
+  client:
+    registerWithEureka: true # 服务注册，false表示不将本消费者注册到 Eureka 服务器
+    fetchRegistry: true # 服务发现，true从 Eureka 服务器中获取注册信息
+    serviceUrl:
+      defaultZone: http://localhost:6001/eureka/
+  instance:
+    instanceId: ${spring.application.name}:${server.port}
+    prefer-ip-address: true #访问路径就会显示成IP地址
+
+zuul:
+  routes:
+    user-api: # 路由名称，名称任意，保持所有路由名称唯一
+      path: /user/** # 访问路径
+      serviceId: min-user-api # 指定服务ID，会自动从Eureka中找到此服务的ip和端欧
+      stripPrefix: false # 代理转发时去掉前缀，false:代理转发时不去掉前缀 例如:为true时请求 /product/get/1，代理转发到/get/1

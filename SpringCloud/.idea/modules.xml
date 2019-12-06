@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../min-api/min-api.iml" filepath="$PROJECT_DIR$/../min-api/min-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../min-common/min-common.iml" filepath="$PROJECT_DIR$/../min-common/min-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../min-eureka/min-eureka.iml" filepath="$PROJECT_DIR$/../min-eureka/min-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../min-feign/min-feign.iml" filepath="$PROJECT_DIR$/../min-feign/min-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../min-parent/min-parent.iml" filepath="$PROJECT_DIR$/../min-parent/min-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../min-webservice/min-webservice.iml" filepath="$PROJECT_DIR$/../min-webservice/min-webservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../min-zuul/min-zuul.iml" filepath="$PROJECT_DIR$/../min-zuul/min-zuul.iml" />
+    </modules>
+  </component>
+</project>
