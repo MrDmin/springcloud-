@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="min-webservice" />
         <module name="min-common" />
+        <module name="min-gateway" />
         <module name="min-eureka" />
         <module name="min-api" />
         <module name="min-feign" />
@@ -19,6 +20,7 @@
       <module name="min-common" target="1.8" />
       <module name="min-eureka" target="1.8" />
       <module name="min-feign" target="1.8" />
+      <module name="min-gateway" target="1.8" />
       <module name="min-parent" target="1.8" />
       <module name="min-webservice" target="1.8" />
       <module name="min-zuul" target="1.8" />
@@ -30,6 +32,7 @@
       <module name="min-common" options="-parameters" />
       <module name="min-eureka" options="-parameters" />
       <module name="min-feign" options="-parameters" />
+      <module name="min-gateway" options="-parameters" />
       <module name="min-webservice" options="-parameters" />
       <module name="min-zuul" options="-parameters" />
     </option>

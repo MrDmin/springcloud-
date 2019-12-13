@@ -14,6 +14,7 @@
         <module>../min-webservice</module>
         <module>../min-feign</module>
         <module>../min-zuul</module>
+        <module>../min-gateway</module>
     </modules>
 
     <!--手动指定 pom -->
